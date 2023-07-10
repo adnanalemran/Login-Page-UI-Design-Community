@@ -95,6 +95,17 @@ section .contentBx .formBx .inputBx input[type="submit"]{
     border: none;
     font-weight: 500;
     cursor: pointer;
+}
+section .contentBx .formBx .remember{
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-weight: 400px;
+    font-size: 14px;
+}
+section .contentBx .formBx .inputBx P{
+    color: #607d8b;
+}
+section .contentBx .formBx .inputBx P a{
+    color: #ff4584;
     
-
 }
