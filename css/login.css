@@ -49,6 +49,7 @@ body {
   
   section .contentBx .formBx {
     width: 50%;
+    background-color: #fff;
   }
   
   section .contentBx .formBx h2 {
@@ -109,5 +110,43 @@ body {
   
   section .contentBx .formBx .inputBx p a {
     color: #ff4584;
+  }
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 992px) {
+    section .img-box {
+      display: none;
+    }
+    
+    section .contentBx {
+      width: 100%;
+    }
+    
+    section .contentBx .formBx {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    section {
+      flex-direction: column;
+    }
+    
+    section .img-box {
+      width: 100%;
+      height: 50vh;
+      display: block;
+    }
+    
+    section .contentBx {
+      width: 100%;
+      height: auto;
+      background-color: transparent;
+    }
+    
+    section .contentBx .formBx {
+      width: 100%;
+    }
   }
   
